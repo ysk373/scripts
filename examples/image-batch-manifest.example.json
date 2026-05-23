@@ -1,0 +1,12 @@
+﻿{
+  "displayName": "robot-papers-2026-05-29",
+  "model": "gemini-3.1-flash-image-preview",
+  "baseDir": "/absolute/path/to/tech/robot",
+  "items": [
+    {
+      "key": "example-slug-arch",
+      "prompt": "Clean technical architecture diagram for a mobile robot VLA system: camera, planner, actuator. White background, labeled blocks, no text watermark.",
+      "output": "diagrams/papers/example-slug/explain-architecture.png"
+    }
+  ]
+}
