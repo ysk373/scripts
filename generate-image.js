@@ -21,9 +21,6 @@ async function generateImage(prompt) {
   const requestData = {
     contents: [{ parts: [{ text: prompt }] }],
     generationConfig: {
-      temperature: 1.0,
-      topP: 0.95,
-      topK: 40,
       maxOutputTokens: 8192
     }
   };
